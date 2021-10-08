@@ -2,9 +2,11 @@ h1{
     text-align: center;
     margin-top: 80px;
 }
+
 body{
     background-color:red;
 }
+
 .formDiv{
    display: flex;
     margin-top:25px;
@@ -26,13 +28,10 @@ body{
     transition-duration: 0.4s;
     cursor:pointer;
 }
+
 button:hover{
     background-color: blue;
     color: white;
-}
-
-.input-field{
-
 }
 
 form{
