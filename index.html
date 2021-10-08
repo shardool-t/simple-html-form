@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1 style="text-align: center;"> Simple Form</h1> 
+        <link rel="stylesheet" href="style.css"/>
+        <h1> Simple Form</h1> 
         <title>  Enter Your Data </title>
     </head>
-    <body style="background-color:red;"> 
-        <div style="text-align: center; margin-top:100px;">
-        <form>
-          <label> <b> Name: </b></label>
-          <input type="text" placeholder="enter your name"/></br>
+    <body> 
+        <div class="formDiv">
+        <form class="simpleform">
+          <label class="input-text"> <b> Name: </b></label>
+          <input class="input-field" type="text" placeholder="enter your name"/></br>
           </br>
-          <label><b> Address:</b></label>
-          <input type="text" placeholder="enter your Address"/>
+          <label class="input-text"><b> Address:</b></label>
+          <input class="input-field" type="text" placeholder="enter your Address"/>
           </br></br>
-          <label><b>Email:</b></label>
-          <input type="email" placeholder="hello@gmail.com"/>
+          <label class="input-text"><b>Email:</b></label>
+          <input class="input-field" type="email" placeholder="hello@gmail.com"/>
           </br></br>
-          <label><b>Gender:</b></label>
-          <input type="radio" name="gender" value="male"/>
+           <label class="input-text"><b>Gender:</b></label>
+          <div>
+          <input class="input-field" type="radio" name="gender" value="male"/>
            <label>Male</label>
-            <input type="radio" name="gender" value="Female"/>
+            <input class="input-field" type="radio" name="gender" value="Female"/>
            <label>Female</label>
-            <input type="radio" name="gender" value="Other"/>
+            <input class="input-field" type="radio" name="gender" value="Other"/>
            <label>Other</label>
+          </div>
            </br></br>
-           <label><b>Phone Number:</b>
+           <label class="input-text"><b>Phone Number:</b>
            </label>
-           <input type="text" placeholder="Enter your Phone number"/>
-           </br></br>
-            <div style="text-align: center; margin-top:25px;">
-                <button style="background-color: green" type="button" name="submit">SUBMIT</button>
+           <input class="input-field" type="text" placeholder="Enter your Phone number"/>
+            <div class="buttonDiv">
+                <button class="button" type="button" name="submit">SUBMIT</button>
            </div>
         
         </form> 
@@ -40,3 +42,5 @@
 
 </html>       
     
+
+   

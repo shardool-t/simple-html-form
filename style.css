@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+body{
+    background-color:red;
+}
+.formDiv{
+   display: flex;
+    margin-top:25px;
+    justify-content: center;
+} 
+
+.buttonDiv{
+     text-align:center;
+     margin-top:15px;
+}
+
+.button{
+    background-color: gray;
+    color:black;
+    border:2px solid blue;
+    font-size:15px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.input-field{
+
+}
+
+form{
+   display:flex;
+   flex-direction: column;
+   justify-content:center;
+
+}
+
+label{
+    margin-bottom: 7px;
+}
